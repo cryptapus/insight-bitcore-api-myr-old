@@ -43,7 +43,7 @@ exports.index = function(req, res) {
   if (bitstampRate === 0 || currentTime >= (timestamp + delay)) {
     timestamp = currentTime;
 
-    _request('https://www.bitstamp.net/api/ticker/', function(err, data) {
+    _request('https://cryptap.us/myr/jswallet/ticker_for_insight.php', function(err, data) {
       if (!err) bitstampRate = parseFloat(JSON.parse(data).last);
 
       res.jsonp({

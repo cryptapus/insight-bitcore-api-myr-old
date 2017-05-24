@@ -8,6 +8,41 @@
       ]
    },
    {
+      "poolName":"zpool",
+      "url":"http://www.zpool.ca/",
+      "searchStrings":[
+         "www.zpool.ca"
+      ]
+   },
+   {
+      "poolName":"minersPoolEU",
+      "url":"https://www.miners-pool.eu",
+      "searchStrings":[
+         "minersPoolEU"
+      ]
+   },
+   {
+      "poolName":"miningpoolhub",
+      "url":"https://miningpoolhub.com/",
+      "searchStrings":[
+         "mph"
+      ]
+   },
+   {
+      "poolName":"myriadcoins.tk",
+      "url":"http://myriadcoins.tk/",
+      "searchStrings":[
+         "myriadcoinsTK"
+      ]
+   },
+   {
+      "poolName":"nodeStratum",
+      "url":"https://github.com/zone117x/node-stratum-pool",
+      "searchStrings":[
+         "nodeStratum"
+      ]
+   },
+   {
       "poolName":"175btc",
       "url":"http://www.175btc.com/",
       "searchStrings":[
